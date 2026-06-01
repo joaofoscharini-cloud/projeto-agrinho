@@ -8,40 +8,61 @@
 </head>
 <body>
 
-    <header>
-        <h1>Agro Forte</h1>
-        <p>Futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+    <header class="main-header">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1>Agro Forte</h1>
+            <p>Futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+            <a href="#sobre" class="btn-hero">Conhecer Práticas</a>
+        </div>
     </header>
 
-    <section>
+    <section id="sobre" class="about-section">
         <h2>Sobre o Agro Sustentável</h2>
+        <p class="section-lead">
+            A agricultura sustentável busca equilibrar a produção em larga escala de alimentos e matérias-primas com a preservação ambiental rigorosa. O grande desafio do século é alimentar o planeta protegendo os recursos que tornam a vida e a própria produção possíveis.
+        </p>
         <p>
-            A agricultura sustentável busca equilibrar a produção de alimentos com a preservação ambiental. Isso inclui técnicas de plantio que conservam o solo, uso responsável da água, proteção da biodiversidade e integração de tecnologias que aumentam a produtividade sem degradar os recursos naturais. 
+            Isso envolve a aplicação prática de técnicas de manejo integrado que conservam a estrutura e fertilidade do solo, garantem o uso racional e circular da água, protegem a rica biodiversidade local e fundem tecnologias de ponta com o respeito aos ciclos da natureza, aumentando a produtividade sem expandir a degradação florestal.
         </p>
 
         <div class="gallery">
             <div class="card">
-                <img src="https://via.placeholder.com/300x200?text=Plantio+Responsável" alt="Plantio Responsável">
-                <h3>Plantio Responsável</h3>
-                <p>Práticas que mantêm a fertilidade do solo e reduzem impactos ambientais.</p>
+                <div class="card-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?auto=format&fit=crop&w=600&q=80" alt="Plantação jovem crescendo em solo manejado de forma responsável">
+                </div>
+                <div class="card-body">
+                    <h3>Plantio Responsável</h3>
+                    <p>Práticas como o plantio direto, rotação de culturas e adubação verde que mantêm a biologia do solo ativa, evitam a erosão e reduzem drasticamente os impactos ambientais.</p>
+                </div>
             </div>
             <div class="card">
-                <img src="https://via.placeholder.com/300x200?text=Água+Sustentável" alt="Água Sustentável">
-                <h3>Uso da Água</h3>
-                <p>Técnicas de irrigação eficientes que conservam esse recurso vital.</p>
+                <div class="card-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?auto=format&fit=crop&w=600&q=80" alt="Sistema moderno de irrigação por gotejamento sustentável">
+                </div>
+                <div class="card-body">
+                    <h3>Uso Inteligente da Água</h3>
+                    <p>Sistemas automatizados de irrigação por gotejamento, captação de água da chuva e monitoramento inteligente da umidade do solo para conservar este recurso vital.</p>
+                </div>
             </div>
             <div class="card">
-                <img src="https://via.placeholder.com/300x200?text=Biodiversidade" alt="Biodiversidade">
-                <h3>Biodiversidade</h3>
-                <p>Preservar espécies e habitats dentro e ao redor das áreas produtivas.</p>
+                <div class="card-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80" alt="Paisagem de fazenda integrada com florestas nativas e biodiversidade protegida">
+                </div>
+                <div class="card-body">
+                    <h3>Preservação da Biodiversidade</h3>
+                    <p>Integração Lavoura-Pecuária-Floresta (ILPF) e manutenção rigorosa de Áreas de Preservação Permanente (APPs) para criar corredores ecológicos saudáveis.</p>
+                </div>
             </div>
         </div>
 
-        <button class="btn" onclick="showMessage()">Saiba Mais</button>
+        <div class="action-container">
+            <button class="btn" id="btn-saiba-mais">Quero Participar Desse Futuro</button>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2026 Agro Forte. Todos os direitos reservados.</p>
+    <footer class="main-footer">
+        <p>&copy; 2026 Agro Forte. Todos os direitos reservados. Equilíbrio entre produção e meio ambiente.</p>
     </footer>
 
     <script src="script.js"></script>
